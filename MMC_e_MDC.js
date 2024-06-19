@@ -14,7 +14,7 @@ process.stdin.on("data",function(data){
             console.log("Digite um numero válido");
         }
     }else if(!num2){
-        if(!isNaN(entrada)){
+        if(!isNaN(entrada)){ 
         num2 = entrada;
         let maior;
         let menor;
