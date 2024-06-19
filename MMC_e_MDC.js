@@ -32,7 +32,13 @@ process.stdin.on("data",function(data){
             }
         aux++;
         }
+        for(let i = 1; i <= menor; i++){
+            if(num % i==0 && num2%i==0){
+                MDC = i;
+            }
+        }
         console.log("O MMC dos números é: " + aux);
+        console.log("O MDC dos números é: ", MDC)
         process.exit();
         }
     }else{
